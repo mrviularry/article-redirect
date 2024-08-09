@@ -10,8 +10,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(app)
 
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'
+TELEGRAM_BOT_TOKEN = '6992836984:AAFdxfMCT6g-jvS2A7EasC-DWudf8Fa0XTA'
+TELEGRAM_CHAT_ID = '1667505517'
 
 class Session(db.Model):
     id = db.Column(db.Integer, primary_key=True)
